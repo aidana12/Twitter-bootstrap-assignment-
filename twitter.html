@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Twitter</title>
+  <link rel="stylesheet" type="text/css" href="css/twitter.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container1">
+    <nav class="navbar navbar-default border">
+      <div class="col-sm-1"> </div>
+      <div class="col-sm-10 container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+        </div>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img alt="twitter logo" src="images/logo.png" width="100">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control search" placeholder="Search">
+              <button type="submit" class="btn btn-default">
+                <span class="glyphicon glyphicon-search">
+                </span>
+              </button>
+            </div>
+          </form>
+          <ul class="nav navbar-nav">
+            <li class="home"><a href="#">Home</a></li>
+            <li class="home"><a href="#">Profile</a></li>
+            <li class="home"><a href="#">Messages</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right home">
+            <li><a href="#" class="home"><img src="images/tweet.png" alt="tweet" width="15"></a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/aidana.jpeg" alt="your profile picture" width="18"> aidana<span class="caret"></span></a></li>
+          </ul>
+          <ul class="dropdown-menu">
+            <li><a href="#">View Profile</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Lists</a></li>
+            <li><a href="#">Moments</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Keyboard shortcuts</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Log out</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="col-sm-1"> </div>
+    </nav>
+  </div>
+  <div class="container2">
+    <div class="row">
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-5">
+        <div class="wh">
+          <h3 class="h3">What's happening?</h3>
+          <div class="form-group tweet">
+            <input type="text" class="form-control">
+          </div>
+          <div id="timeline">
+            <ul class="nav nav-tabs">
+              <li role="presentation" class="active"><a class="timeline" href="#">Timeline</a></li>
+              <li role="presentation"><a href="#" class="timeline">@Mentions</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle timeline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Retweets<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">View Retweets</a></li>
+                  <li><a href="#">Manage Retweets</a></li> 
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle timeline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Searches<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">View Searches</a></li>
+                  <li><a href="#">Manage Searches</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle timeline" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lists<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">View Lists</a></li>
+                  <li><a href="#">Manage Lists</a></li>     
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="images/berlin.jpeg" alt="user's profile picture" width="54">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading"><b>artparasites </b><small>Berlin ArtParasites</small></h4>
+              <p>Blah blah blah <a href="">#blah</a> 
+                <br>
+                <small>1 minute ago</small>
+              </p>
+            </div>
+          </div>
+          <hr class="hr">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="images/aidana.jpeg" alt="user's profile picture" width="54">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading"><b>aidana </b><small>Aidana M</small></h4>
+              <p>What is coding <a href="">#existentialcrisiscontinued</a> 
+                <br>
+                <small class="small">1 minute ago</small>
+              </p>
+            </div>
+          </div>
+          <hr class="hr">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="images/nat.png" alt="user's profile picture" width="54">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading"><b>nat </b><small>Natasha P</small></h4>
+              <p>OMG the food in the new ramen place--- <a href="">#asian</a>
+                <br>
+                <small class="small"> 3 minutes ago</small>
+              </p> 
+            </div>
+          </div>
+          <hr class="hr">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="images/berlin.jpeg" alt="user's profile picture" width="54">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading"><b>artparasites </b><small>Berlin ArtParasites</small></h4>
+              <p>Deepshit <a href="">#deepshit</a> 
+                <br>
+                <small class="small">4 minutes ago</small>
+              </p>
+            </div>
+          </div>
+          <hr class="hr">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="images/aidana.jpeg" alt="user's profile picture" width="54">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading"><b>aidana </b><small>Aidana M</small></h4>
+              <p>What is life<a href=""> #existentialcrisis</a> 
+                <br>
+                <small class="small">4 minutes ago</small>
+              </p>
+            </div>
+          </div>
+          <hr class="hr">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="images/olya.jpeg" alt="user's profile picture" width="54">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading"><b>olya </b><small>Olya T</small></h4>
+              <p>follow me on Insta, I post pictures everyday <a href="">#shamelesspromo</a>
+                <br>
+                <small class="small">7 minute ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-5 half2">
+        <div class="tweets">
+          <h4 class="h4 p-b">Your Tweets <small><a href="">12</a></small></h4>
+          <p><img src="images/aidana.jpeg" width="22" alt="your profile picture"><small class="small"><b> 1 minute ago</b>: What is coding <a href="">#existentialcrisiscontinued</a></small></p>
+        </div>
+        <div class="following">
+          <div class="col1">
+            <h4 class="p-b">Following <small><a href="">4</a></small></h4>
+            <img src="images/berlin.jpeg" alt="user's profile picture" width="18">
+            <img src="images/linu.jpeg" alt="user's profile picture" width="18">
+            <img src="images/olya.jpeg" alt="user's profile picture" width="18">
+            <img src="images/nat.png" alt="user's profile picture" width="18">
+            <br>
+            <h4 class="shift p-b">Favourites <small><a href="">5</a></small></h4>
+            <p class="p-b2">
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span> <a href="">SohailAbid</a> <small class="small">How to download Google Books: 1) Install Gresemonkey on Firefox <br> 2)...</small></p>
+            </div>
+            <div class="col2">
+              <h4 class="p-b">Followers <small><a href="">4</a></small></h4>
+              <img src="images/berlin.jpeg" alt="user's profile picture" width="18">
+              <img src="images/linu.jpeg" alt="user's profile picture" width="18">
+              <img src="images/olya.jpeg" alt="user's profile picture" width="18">
+              <img src="images/nat.png" alt="user's profile picture" width="18">
+              <br>
+              <h4 class="shift p-b">Listed <small><a href="">5</a></small></h4>
+              <p class="p-b2"><span class="glyphicon glyphicon-list" aria-hidden="true"></span><small class="small"> Recently listed in: <a href="">iThinkdiff Team</a>, <a href="">iTD</a>, <a href="">Team-iTD</a>, <a href="">Recently-Followed-Me</a></small></p>
+            </div>
+            <hr class="hrdark">
+            <div class="trends">
+              <div class="col1">
+                <h4 class="shift">Trends 
+                  <br>
+                  <small>Worldwide
+                    <a href="">change
+                      <br>
+                      Safadeza Oculta
+                      <br>
+                      Greys Anatomy
+                      <br>
+                      Mono Jojoy
+                      <br>
+                      Marco Aurelio
+                      <br>
+                      Chief Webber
+                      <br>
+                      #ihatewhenpeople
+                      <br>
+                      #theoffice
+                      <br>
+                      #okimlying
+                      <br>
+                      #Watching CSI
+                    </a>
+                  </small>
+                </h4>
+              </div>
+              <div class="col2">
+                <h4 class="shift">Who to follow<br>
+                  <small>Suggestions for you <a href="">refresh</a>
+                    <br>
+                    <img class="fol" src="images/1.jpeg" alt="user's profile picture" width="30">
+                    <div class="fol"><b class="black">harshika </b><a href=""> Follow</a>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <br>
+                      Me. 
+                    </div>
+                    <br>
+                    <img class="fol" src="images/2.jpeg" alt="user's profile picture" width="30">
+                    <div class="fol"><b class="black">Rockstar_Sid </b><a href=""> Follow</a>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <br>
+                      Sidharth
+                    </div>
+                    <br>
+                    <img class="fol" src="images/3.jpeg" alt="user's profile picture" width="30">
+                    <div class="fol"><b class="black">p0sixninja </b><a href=""> Follow</a>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <br>
+                      Joshua Hill
+                    </div>
+                    <br>
+                    <img class="fol" src="images/4.jpeg" alt="user's profile picture" width="30">
+                    <div class="fol"><b class="black">codinghorror </b><a href="" > Follow</a>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <br>
+                      Jeff Atwood
+                    </div>
+                    <br>
+                    <a href="">View all suggestions
+                      <br>
+                      <div class="extrasm">
+                        Browse interests. Find friends</a>
+                      </div>
+                    </small>
+                  </h4>
+                </div>
+              </div>
+              <hr class="hrdark">
+              <div>
+                <h4><a href="">Twitter for iPhone</a>
+                  <br>
+                  <small class="small"><i>n.</i> the official Twitter app for iPhone.</small>
+                </h4>
+              </div>
+              <hr class="hrdark">
+              <div>
+                <h4>
+                  <small class="black"><a href="">About</a> | <a>Help</a> | <a>Blog</a> | <a>Status</a> | <a>Jobs</a> <a>Terms</a> | <a>Privacy</a> | <a>Shortcuts</a><br> 
+                    <a>Business</a> | <a>Media</a> | <a>Developers</a> | <a>Widgets</a> © 2010 Twitter
+                  </small>
+                </h4>
+              </div>
+            </div>
+          </div>  
+          <div class="col-sm-1"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
